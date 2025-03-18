@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My projects</h2>
+
+    <!-- Project 1 -->
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>This is a simple web application of a restaurant landing page.</p>
+      <img src="./images/IMG-20250316-WA0025.jpg" alt="photo one" width="300" />
+      <img src="./images/IMG-20250316-WA0024.jpg" alt="photo two" width="300" />
+      <img src="./images/IMG-20250316-WA0026.jpg" alt="photo three" width="300" />
+      <button onclick="toggleDetails('details1')">Show Details</button>
+      <div id="details1" class="details">
+        <p>
+          The website is for a restaurant called Masafa Food Palace. This is my first Project
+          in which i learnt everything about web development. I was mostly captivated by the 
+          development of this website and hence I chose to specialise in Web development and 
+          design.
+        </p>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>This project is of my personal profile card as a Web developer and designer.</p>
+      <img src="./images/IMG-20250316-WA0027.jpg" alt="photo" width="300" />
+      <button onclick="toggleDetails('details2')">Show Details</button>
+      <div id="details2" class="details">
+        <p>
+          In order to launch one's career as a Software Engineer, one way to start is by 
+          creating a profile card. It is important as it is used to obtain one's clients.
+          Therfore, I made it possible for people to access my services in Web development 
+          and design by posting my detils on the internet. Through my profile card, potential 
+          clients find a way to contact me.
+        </p>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+      <h3>Project 3</h3>
+      <p>This is a personal portfolio of myself as an upcoming Software Engineer.</p>
+      <img src="./images/WhatsApp Image 2025-03-17 at 14.15.57_161e0925.jpg" alt="photo 1" width="300" />
+      <img src="./images/WhatsApp Image 2025-03-17 at 14.15.57_3a6965f2.jpg" alt="photo 2" width="300" />
+      <button onclick="toggleDetails('details3')">Show Details</button>
+      <div id="details3" class="details">
+        <p>
+          As I grow as a Software Engineer, so does my experience and projects. the personal 
+          portfolio was meant to showcase my ability in my career in order to buid trust among 
+          my clients. The portfolio contains my details, my projects as well as my contacts.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Michelle Nyaribari</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
